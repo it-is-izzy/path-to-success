@@ -1,9 +1,192 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
+
+:root{
+    --teal: #4CA7C0;
+    --purple:#484FB7;
+    --lavender:#6B8FE7;
+    --yellow:#E9BB57; 
+    --pink:#D9526F;
+    --dk-gray:#1E1E1E; 
+    --white:#ffffff; 
+}
+
+header{
+    color: var(--white);
+}
+
 h1, h2{
     font-family: Kavoon;
 }
 
 body{
+    text-align: center;
     font-family: Inter;
+    background-color: var(--lavender);
+    margin: 0;
+    padding: 0;
+    
 }
+
+main{
+    max-width: 450px;
+    background-color: var(--purple)
+}
+
+nav {
+    background-color: var(--yellow);
+    padding: 20px 0;
+}
+
+nav h2{
+    font-family: inter;
+    color: var(--dk-gray);
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav li{
+    background-color: var(--white);
+    padding: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+}
+
+#services article{
+    background-color: var(--white);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+#why-choose-us{
+    background-color:var(--pink);
+ 
+}
+
+#why-choose-us ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+    padding: 20px;
+}
+
+#why-choose-us li{
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    font-style: bold;
+}
+
+.teal{
+    background-color: var(--teal);
+}
+
+.lavender{
+    background-color:var(--lavender);
+}
+
+.yellow{
+    background-color: var(--yellow);
+}
+
+.white{
+    background-color: var(--white);
+}
+
+#pricing table{
+    background-color: var(--white);
+    margin: auto;
+    border: none;
+    border-spacing: 0;
+    text-align: center;
+    
+}
+
+#pricing th{
+    background-color: var(--yellow);
+    padding: 10px;
+    
+}
+
+#pricing td{
+    padding: 10px;
+    border: 1px solid var(--yellow);
+}
+
+#schedule-now{
+    background-color: var(--pink);
+    text-align: center;
+    color: var(--white);
+    text-align: center;
+    padding: 15px;
+}
+
+#schedule-now a{
+    display: inline-block;
+    width: 70%;
+    padding: 15px 0px;
+    background-color: var(--white);
+    color: var(--dk-gray);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px;
+}
+
+footer{
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    
+}
+
+h1{
+    font-size: 3em;
+    color: var(--white);
+}
+nav h2{
+    font-size: 1.5em;
+
+}
+
+h2{
+    font-size: 2em;
+    color: var(--white);
+}
+
+h3{
+    font-size: 1.5em;
+    color: var(--yellow);
+}
+
+h4{
+    font-size: 1.15em;
+    color: var(--purple);
+}
+
