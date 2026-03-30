@@ -147,7 +147,7 @@ nav a{
     display: block;
 }
 
-#services article{
+#services div{
     background-color: var(--white);
     border-radius: 12px;
     margin-bottom: 20px;
